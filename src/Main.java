@@ -40,9 +40,9 @@ public class Main {
         var hoursDay = 8;
         var managers = hours / hoursDay;
         System.out.println("Всего работников в компании - " + managers + " человек.");
-        var worker = managers + 94;
-        var hoursWork = worker * 8;
-        System.out.println("«Если в компании работает " + worker + " человек, то всего " + hoursWork + " часов работы может быть поделено между сотрудниками»");
+        managers = managers + 94;
+        hours = managers * 8;
+        System.out.println("«Если в компании работает " + managers + " человек, то всего " + hours + " часов работы может быть поделено между сотрудниками»");
 
 
 
