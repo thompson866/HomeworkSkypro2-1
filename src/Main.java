@@ -36,6 +36,16 @@ public class Main {
         System.out.println("Разница в весе бойцов " + (bBoxWeight % aBoxWeight) + " кг");
 
 
+        var hours = 640;
+        var hoursDay = 8;
+        var managers = hours / hoursDay;
+        System.out.println("Всего работников в компании - " + managers + " человек.");
+        var worker = managers + 94;
+        var hoursWork = worker * 8;
+        System.out.println("«Если в компании работает " + worker + " человек, то всего " + hoursWork + " часов работы может быть поделено между сотрудниками»");
+
+
+
 
     }
 }
