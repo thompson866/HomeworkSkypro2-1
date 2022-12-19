@@ -30,8 +30,10 @@ public class Main {
         var aBoxWeight = 78.2;
         var bBoxWeight = 82.7;
         var overallBox = aBoxWeight + bBoxWeight;
+        var differenceBox = bBoxWeight - aBoxWeight;
         System.out.println("Общий вес Боксеров " + overallBox + " кг" );
-        System.out.println("Разница в весе бойцов " + (bBoxWeight - aBoxWeight) + " кг");
+        System.out.println("Разница в весе бойцов " + differenceBox + " кг");
+        System.out.println("Разница в весе бойцов " + (bBoxWeight % aBoxWeight) + " кг");
 
 
 
