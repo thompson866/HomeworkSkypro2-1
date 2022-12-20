@@ -59,8 +59,6 @@ public class Main {
 
         //Задача 7//
         System.out.println("Задача 7");
-
-
         System.out.println("Разница в весе бойцов (1 способ) " + (bBoxWeight - aBoxWeight) + " кг");
         System.out.println("Разница в весе бойцов (2 способ) " + (bBoxWeight % aBoxWeight) + " кг");
 
